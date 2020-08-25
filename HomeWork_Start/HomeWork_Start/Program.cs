@@ -19,7 +19,7 @@ namespace HomeWork_Start
             Console.SetCursorPosition(Console.WindowWidth / 2, Console.WindowHeight / 2);
             Console.WriteLine(name);
             Console.WriteLine("Hello World!");
-            Pause("Перегрузка");
+            Pause("Для выхода из консоли нажмите любую кнопку");
         }
 
         static void Pause (string str)
