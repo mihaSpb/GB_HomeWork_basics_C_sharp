@@ -1,1 +1,1 @@
-# GB_HomeWork_basiks_C_sharp
+# GB_HomeWork_basiсs_C_sharp
