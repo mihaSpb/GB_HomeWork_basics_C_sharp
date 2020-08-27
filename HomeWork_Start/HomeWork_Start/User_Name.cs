@@ -17,7 +17,7 @@ namespace User_Name
         {
 
             ClassPrintText.PrintUserName();
-            Class1.Pause("Это последнее задание, для выхода нажмите любую кнопку...");
+            Class1.Pause("");
 
         }
     }
