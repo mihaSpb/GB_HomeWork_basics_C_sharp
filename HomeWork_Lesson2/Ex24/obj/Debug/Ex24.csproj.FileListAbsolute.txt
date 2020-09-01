@@ -1,0 +1,7 @@
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex24\bin\Debug\Ex24.exe.config
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex24\bin\Debug\Ex24.exe
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex24\bin\Debug\Ex24.pdb
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex24\obj\Debug\Ex24.csproj.CoreCompileInputs.cache
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex24\obj\Debug\Ex24.exe
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex24\obj\Debug\Ex24.pdb
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex24\obj\Debug\Ex24.csprojAssemblyReference.cache
