@@ -1,0 +1,7 @@
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex25\bin\Debug\Ex25.exe.config
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex25\bin\Debug\Ex25.exe
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex25\bin\Debug\Ex25.pdb
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex25\obj\Debug\Ex25.csprojAssemblyReference.cache
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex25\obj\Debug\Ex25.csproj.CoreCompileInputs.cache
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex25\obj\Debug\Ex25.exe
+F:\C#_project\GeekBrains_HomeWork\HomeWork_Lesson2\Ex25\obj\Debug\Ex25.pdb
