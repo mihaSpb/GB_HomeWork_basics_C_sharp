@@ -18,28 +18,55 @@ namespace Ex32
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Введите произвольное целое число (0 заканчивает ввод чисел):");
-
             int sum = 0;
-            int a = int.Parse(Console.ReadLine());
+            string str;
+            // Создание списка введенных значений
+            List<int> num = new List<int>();
 
-            while (a != 0)
+
+            while (true)
             {
-                if (a > 0 && a % 2 != 0)
+                Console.Write("Введите число (0 заканчивает ввод чисел):");
+
+
+                // Проверка того, что введено именно целое число.
+                if (Int32.TryParse(str = (Console.ReadLine()), out int a))
                 {
-                    sum = sum + a;
+                    if (a == 0)
+                    {
+                        break;
+                    }
+                    else if (a > 0 && a % 2 != 0)
+                    {
+                        num.Add(a);
+                        sum += a;
+                    }
                 }
-                a = int.Parse(Console.ReadLine());
+                else
+                {
+                    Console.WriteLine("Введите целое число!");
+                }
+
             }
+
+            // Вывод конечных данных
             Console.WriteLine($"Сумма всех введенных нечетных положительных чисел: {sum}");
+            Console.Write("Список чисел: ");
 
-
-
+            ListNum(num);
 
             Console.WriteLine();
             Console.ReadKey();
+        }
 
+        // Вывод списка чисел
+        private static void ListNum(List<int> num)
+        {
+            for (int i = 0; i < num.Count; i++)
+            {
+                Console.Write($"{num[i]}, ");
 
+            }
         }
     }
 }
