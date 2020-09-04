@@ -18,10 +18,8 @@ namespace Ex33
     class Program
     {
 
-        /// <summary>
-        /// Функция проверки ввода без обработки исключений
-        /// </summary>
-        /// <returns></returns>
+
+        // Функция проверки ввода целого числа без обработки исключений
         static int CheckInt()
         {
             while (true)
@@ -42,6 +40,10 @@ namespace Ex33
             int n2 = CheckInt();
             Console.Write("Введите знаминатель второй дроби: ");
             int d2 = CheckInt();
+
+
+
+            Console.ReadKey();
         }
     }
 }
