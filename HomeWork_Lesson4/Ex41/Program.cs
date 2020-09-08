@@ -18,16 +18,19 @@ namespace Ex41
     class Program
     {
 
-        // Метод подсчета пар элементов массива, которые делятся на три
+        // Метод подсчета пар элементов массива, которые делятся на три.
         static int GetCountPair (int [] countArray, int legthCount)
         {
             int countPair = 0;
 
             for (int j = 0; j < legthCount - 1; j++)
             {
-                if (countArray[j] % 3 == 0 || countArray[j + 1] % 3 == 0) countPair++;
+                if (countArray[j] % 3 == 0 & countArray[j + 1] % 3 != 0 | countArray[j] % 3 != 0 & countArray[j + 1] % 3 == 0)
+                {
+                    countPair++;
+                    Console.Write($"\nпары, подпадающие под условия: {countArray[j]} {countArray[j + 1]}");
+                }
             }
-
             return countPair;
         }
 
@@ -40,26 +43,34 @@ namespace Ex41
             int[] arr = new int[arrLength];  // Массив из 20-ти элементов  
             int result = 0; // Переменная для хранения количества пар элементов массива, которые делятся на три
 
-            Random arrNum = new Random(); // Рандомайзер для заполнения массива
-
             Console.Write("Исходный массив случайных чисел:\n");
 
-            // Заполнение массива
+            // Заполнение массива случайными числами
+            FillingArray(arrLength, arr);
+
+            result = GetCountPair(arr, arrLength);
+
+            Console.WriteLine($"\n\nКоличество пар элементов массива, в которых только одно число делится на три: {result}");
+
+            Console.ReadKey();
+
+        }
+
+
+        /// <summary>
+        ///  Метод для заполнения массива, с использованием рандомайзера
+        /// </summary>
+        /// <param name="arrLength">Размер массива</param>
+        /// <param name="arr"> Массив для заполнения</param>
+        private static void FillingArray(int arrLength, int[] arr)
+        {
+
+            Random arrNum = new Random(); // Рандомайзер для заполнения массива
             for (int i = 0; i < arrLength; i++)
             {
                 arr[i] = arrNum.Next(-10000, 10001);
                 Console.Write($"{arr[i]} ");
             }
-
-
-
-            result = GetCountPair(arr, arrLength);
-
-            Console.WriteLine($"\n\nКоличество пар элементов массива, в которых только одно число делится на три: {result}");
-           // Debug.WriteLine(result);
-
-            Console.ReadKey();
-
         }
     }
 }
