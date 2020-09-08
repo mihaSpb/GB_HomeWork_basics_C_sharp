@@ -44,7 +44,7 @@ namespace Ex42
 
             // Считывание массива из файла и вывод его на экран
             int s = OneDimArray.LoadFileArray(fileName);
-
+            //Console.WriteLine(s);
 
             Console.ReadKey();
         }
