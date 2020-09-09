@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -13,6 +14,8 @@
 
 </Project>
 =======
+=======
+>>>>>>> Lesson_5
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
@@ -26,4 +29,7 @@
   </ItemGroup>
 
 </Project>
+<<<<<<< HEAD
 >>>>>>> Lesson-4
+=======
+>>>>>>> Lesson_5
