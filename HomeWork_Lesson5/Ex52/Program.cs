@@ -42,6 +42,7 @@ namespace Ex52
             Message.FreqAnalys(arr, Message.message);
 
 
+
             Console.ReadKey();
         }
     }

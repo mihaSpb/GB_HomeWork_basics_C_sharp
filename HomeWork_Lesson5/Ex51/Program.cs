@@ -9,7 +9,6 @@ using System.Text.RegularExpressions;
 // б) ** с использованием регулярных выражений.
 
 
-
 namespace Ex51
 {
     class Program
