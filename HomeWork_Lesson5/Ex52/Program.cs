@@ -21,6 +21,28 @@ namespace Ex52
     {
         static void Main(string[] args)
         {
+            Console.WriteLine($"Исходный текст:");
+            Console.WriteLine($"\n{Message.message}\n");
+
+
+            // вывод только тех слов, которые содержат не более n букв
+            Message.GetWordByLength(3);
+
+            // Удалить из сообщения все слова, которые заканчиваются на заданный символ.
+            Message.DeleteWordByChar('а');
+
+            Console.WriteLine($"\n\nСамое длинное слово в тексте: {Message.FindMaxWord()}");
+
+            Console.WriteLine($"\nСтрока, составленная из самых длинных слов в тексте: {Message.GetLongWords()}");
+
+            Console.WriteLine("\nЧастотный анализ текста: ");
+            // Массив слов для частотношо анализа
+            string[] arr = { "не", "в", "игра", "памяти", "он" };
+            // Вызов метода частотного анализа
+            Message.FreqAnalys(arr, Message.message);
+
+
+            Console.ReadKey();
         }
     }
 }
