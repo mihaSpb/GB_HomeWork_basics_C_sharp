@@ -26,8 +26,15 @@ namespace Ex52
         // Метод загрузки обрабатываемого текста из файла
         static Message()
         {
+            string filename = "text_message.txt";
+
             // ReadAllText считывает все содержимое файла до конца, а затем закрывает его
-            message = File.ReadAllText("text_message.txt");
+            //Если файл существует
+            if (File.Exists(filename))
+            {
+                message = File.ReadAllText(filename);
+            }
+            else Console.WriteLine("Файл не найден...");
         }
 
 

@@ -87,7 +87,6 @@ namespace Ex53
             //string secondString = "eskajedsucdjsebs";
 
             Console.WriteLine("Является ли одна строка перестановкой другой.");
-
             Console.WriteLine($"Проверим следующие строки: {firstString} и {secondString}");
 
             if (ComparisionString(firstString, secondString) == true && ComparisionString(firstString, secondString) == true)

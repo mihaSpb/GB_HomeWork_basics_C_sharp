@@ -20,7 +20,6 @@ namespace Ex51
         /// при этом цифра не может быть первой</summary>
         /// <param name="login" Введенный логин></param>
         /// <returns></returns>
-        /// 
         public static bool CheckLogin(string login, ref int resultCheckLogin)
         {
             int length = login.Length;
