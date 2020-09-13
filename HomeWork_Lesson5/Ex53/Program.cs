@@ -76,11 +76,12 @@ namespace Ex53
 
 
 
+
         static void Main(string[] args)
         {
             // True
-            string firstString = "kjdsbjdsueaeescs";
-            string secondString = "eskajedsucdjsebs";
+            string firstString = "kjdsbjdsGueaeescs";
+            string secondString = "geskajedsucdjsebs";
 
             // False
             //string firstString = "kjdsbjdsueaewescs";
