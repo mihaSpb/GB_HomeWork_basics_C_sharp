@@ -19,7 +19,7 @@ namespace Ex63
         public int age;
 
 
-        // Добавляем конструктор
+        // Добавляем конструктор 
         public ClassStudent(string firstName, string lastName, string university, string faculty, string department, int age, int course, int group, string city)
         {
             this.lastName = lastName;

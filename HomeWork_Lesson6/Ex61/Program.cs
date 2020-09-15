@@ -45,8 +45,6 @@ namespace Ex61
         }
 
 
-
-
         static void Plot(List<Func> temp, int start, int end)
         {
 
